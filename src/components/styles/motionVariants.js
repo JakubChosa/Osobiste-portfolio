@@ -99,12 +99,12 @@ export const childVariants = {
 export const imgVariants = {
   hidden: {
     scale: 0,
-    y: 0,
+    x: 0,
     // rotate: 0
   },
   visible: {
     scale: 1,
-    y: [-20, 40, -60, 0],
+    x: [-20, 40, -60, 0],
     // rotate: 360,
     transition: {
       type: "tween",

@@ -34,7 +34,7 @@ export default function Header() {
         <Main>
           <LeftContentContainer>
             <Title>
-              Hello I'm Jakub, <br />
+              Kuba Chosa <br />
               Front-end Developer
             </Title>
           </LeftContentContainer>

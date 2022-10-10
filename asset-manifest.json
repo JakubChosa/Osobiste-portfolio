@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Osobiste-portfolio/static/js/main.2a6c9a69.js",
+    "main.js": "/Osobiste-portfolio/static/js/main.ea8716a1.js",
     "static/media/dietbox.jpg": "/Osobiste-portfolio/static/media/dietbox.24019fddde56b446ecba.jpg",
     "static/media/me.jpg": "/Osobiste-portfolio/static/media/me.d11695e34f465fbd16c9.jpg",
     "static/media/quizz.jpg": "/Osobiste-portfolio/static/media/quizz.ea4fba818e5256abd87e.jpg",
@@ -14,9 +14,9 @@
     "static/media/low-poly-grid-haikei.svg": "/Osobiste-portfolio/static/media/low-poly-grid-haikei.eaa93eacdb4e75ceabdae814eed3d78e.svg",
     "static/media/low-poly-grid-haikei2.svg": "/Osobiste-portfolio/static/media/low-poly-grid-haikei2.3a21c1bcb8b1e3735897c29b1b6bf7dc.svg",
     "index.html": "/Osobiste-portfolio/index.html",
-    "main.2a6c9a69.js.map": "/Osobiste-portfolio/static/js/main.2a6c9a69.js.map"
+    "main.ea8716a1.js.map": "/Osobiste-portfolio/static/js/main.ea8716a1.js.map"
   },
   "entrypoints": [
-    "static/js/main.2a6c9a69.js"
+    "static/js/main.ea8716a1.js"
   ]
 }

@@ -31,7 +31,10 @@ function App() {
               path="/Osobiste-portfolio/contact"
               element={<Contact darkModeOn={darkModeOn} />}
             />
-            <Route path="/*" element={<Contact darkModeOn={darkModeOn} />} />
+            <Route
+              path="/Osobiste-portfolio/*"
+              element={<Contact darkModeOn={darkModeOn} />}
+            />
           </Routes>
         </AnimatePresence>
       </>

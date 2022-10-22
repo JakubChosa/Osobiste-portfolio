@@ -39,7 +39,9 @@ export default function Header() {
             </Title>
           </LeftContentContainer>
 
-          <ProjectsLink to="/projects">Projekty</ProjectsLink>
+          <ProjectsLink to="/Osobiste-portfolio/projects">
+            Projekty
+          </ProjectsLink>
 
           <RightContentContainer>
             <SocialLinks variants={childVariants}>

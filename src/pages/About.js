@@ -27,8 +27,8 @@ export default function About() {
           <AboutMeSVG src={websiteSVG} variants={childVariants} />
           <AboutMeText variants={childVariants}>
             Jestem samoukiem po technikum informatycznym. Specjalizuje się w
-            front-endcie oraz znam język programowania python, obecnie jestem w
-            trakcie nauki back-endu(NodeJS/Deno).
+            front-endcie oraz znam języki programowania python/javascript,
+            obecnie jestem w trakcie nauki NextJS.
           </AboutMeText>
           <AboutMeSVG src={astronautSVG} variants={childVariants} order={"4"} />
           <AboutMeText variants={childVariants}>

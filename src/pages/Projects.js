@@ -13,6 +13,7 @@ export default function Projects() {
       name={project.name}
       link={project.link}
       code={project.code}
+      stack={project.stack}
       index={i}
     />
   ));

@@ -35,7 +35,7 @@ export default function Header() {
           <LeftContentContainer>
             <Title>
               Kuba Chosa <br />
-              Front-end Developer
+              Full-Stack Developer
             </Title>
           </LeftContentContainer>
 

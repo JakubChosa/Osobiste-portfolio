@@ -51,9 +51,9 @@ export const aboutVariants = {
     opacity: 1,
     transition: {
       type: "tween",
-      duration: 0.5,
+      duration: 0.4,
       when: "beforeChildren",
-      width: { delay: 0.5, duration: 0.5 },
+      width: { delay: 0.4, duration: 0.4 },
     },
   },
 };
@@ -99,16 +99,12 @@ export const childVariants = {
 export const imgVariants = {
   hidden: {
     scale: 0,
-    x: 0,
-    // rotate: 0
   },
   visible: {
     scale: 1,
-    x: [-20, 40, -60, 0],
-    // rotate: 360,
     transition: {
       type: "tween",
-      duration: 1,
+      duration: 0.6,
     },
   },
 };

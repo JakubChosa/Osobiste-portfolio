@@ -60,13 +60,13 @@ const ProjectBlurEffect = styled.div`
   top: 0;
   left: 0;
   background: ${({ theme }) =>
-    theme.color === "#ffffff" ? "rgba(255,255,255, 0.1)" : "rgba(0,0,0,0.2)"};
+    theme.color === "#ffffff" ? "rgba(255,255,255, 0.1)" : "rgba(0,0,0,0.1)"};
   filter: blur(10px);
   z-index: -1;
 `;
 const ProjectImg = styled.img`
-  width: 240px;
-  height: 220px;
+  width: 260px;
+  height: auto;
   object-fit: scale-down;
   border-radius: 5px;
 `;
@@ -74,6 +74,16 @@ const ProjectName = styled.h3`
   font-size: 1.1rem;
   text-align: center;
   color: ${({ theme }) => theme.color};
+`;
+const ProjectStack = styled.div`
+  color: ${({ theme }) => theme.color};
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  padding-inline: 0.5rem;
 `;
 const ProjectButtons = styled.div`
   display: flex;
@@ -100,9 +110,23 @@ const ProjectBtn = styled(motion.a)`
     text-shadow: 0px 0px 5px ${({ theme }) => theme.color};
   }
 `;
+const RenderAlert = styled.div`
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  translate: -50% 0;
+  z-index: 50;
+  background: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.9;
+`;
 
-const ProjectTemplate = ({ src, name, index, code, link }) => {
+const ProjectTemplate = ({ src, name, index, code, link, stack }) => {
   const [isHovered, setIsHovered] = useState(false);
+
+  const stackElements = stack?.join(" / ");
   return (
     <ProjectContainer
       variants={projectTemplateVariants}
@@ -111,6 +135,9 @@ const ProjectTemplate = ({ src, name, index, code, link }) => {
       onMouseLeave={() => setIsHovered(false)}
     >
       <ProjectBlurEffect />
+      {name === "Ecommerce Shop" && isHovered && (
+        <RenderAlert>może się ładować do 30s</RenderAlert>
+      )}
       <ProjectImg src={src} />
       <ProjectName>{name}</ProjectName>
       {isHovered && (
@@ -120,7 +147,7 @@ const ProjectTemplate = ({ src, name, index, code, link }) => {
             target="_blank"
             variants={projectTemplateBtnVariants}
           >
-            Github Live
+            {name === "Ecommerce Shop" ? "Render Live" : "Github Live"}
           </ProjectBtn>
           <ProjectBtn
             href={code}
@@ -131,6 +158,7 @@ const ProjectTemplate = ({ src, name, index, code, link }) => {
           </ProjectBtn>
         </ProjectButtons>
       )}
+      <ProjectStack>{stack?.join(" / ")}</ProjectStack>
     </ProjectContainer>
   );
 };

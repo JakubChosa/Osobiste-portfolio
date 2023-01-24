@@ -112,7 +112,7 @@ const ProjectBtn = styled(motion.a)`
 `;
 const RenderAlert = styled.div`
   position: absolute;
-  top: 20px;
+  top: 5px;
   left: 50%;
   translate: -50% 0;
   z-index: 50;
@@ -126,7 +126,6 @@ const RenderAlert = styled.div`
 const ProjectTemplate = ({ src, name, index, code, link, stack }) => {
   const [isHovered, setIsHovered] = useState(false);
 
-  const stackElements = stack?.join(" / ");
   return (
     <ProjectContainer
       variants={projectTemplateVariants}
@@ -136,7 +135,7 @@ const ProjectTemplate = ({ src, name, index, code, link, stack }) => {
     >
       <ProjectBlurEffect />
       {name === "Ecommerce Shop" && isHovered && (
-        <RenderAlert>może się ładować do 30s</RenderAlert>
+        <RenderAlert>może się ładować do 30s, wolne serwery.</RenderAlert>
       )}
       <ProjectImg src={src} />
       <ProjectName>{name}</ProjectName>

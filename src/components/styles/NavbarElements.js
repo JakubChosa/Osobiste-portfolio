@@ -85,7 +85,6 @@ export const NavMenuLink = styled(Link)`
   transition: all 0.3s;
   &:hover {
     transform: scale(1.06);
-    text-shadow: 0px 0px 3px ${({ theme }) => theme.color};
   }
 `;
 export const ToggleThemeContainer = styled(motion.div)`

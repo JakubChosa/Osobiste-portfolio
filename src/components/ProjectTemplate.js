@@ -107,7 +107,6 @@ const ProjectBtn = styled(motion.a)`
   border-radius: 10px;
   &:hover {
     box-shadow: 0px 0px 7px ${({ theme }) => theme.primary};
-    text-shadow: 0px 0px 5px ${({ theme }) => theme.color};
   }
 `;
 const RenderAlert = styled.div`

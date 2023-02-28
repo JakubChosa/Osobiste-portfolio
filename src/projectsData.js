@@ -1,4 +1,4 @@
-import crypto from "./assets/crypto.jpg";
+import fitness from "./assets/fitness.png";
 import dietbox from "./assets/dietbox.jpg";
 import ecommerce from "./assets/ecommerce.jpg";
 import quiz from "./assets/quiz.jpg";
@@ -16,11 +16,11 @@ export const projectsData = [
   },
   {
     id: "2",
-    name: "Quiz API",
-    src: quiz,
-    link: "https://jakubchosa.github.io/react-quizz-api/",
-    code: "https://github.com/JakubChosa/react-quizz-api",
-    stack: ["React", "Context"],
+    name: "Fitness landing page",
+    src: fitness,
+    link: "https://jakubchosa.github.io/fitness-website/",
+    code: "https://github.com/JakubChosa/fitness-website",
+    stack: ["React", "typescript", "tailwindcss"],
   },
   {
     id: "3",
@@ -40,11 +40,11 @@ export const projectsData = [
   },
   {
     id: "4",
-    name: "Crypto App",
-    src: crypto,
-    link: "https://jakubchosa.github.io/React-Crypto-API/",
-    code: "https://github.com/JakubChosa/React-Crypto-API",
-    stack: ["React"],
+    name: "Quiz API",
+    src: quiz,
+    link: "https://jakubchosa.github.io/react-quizz-api/",
+    code: "https://github.com/JakubChosa/react-quizz-api",
+    stack: ["React", "Context"],
   },
   {
     id: "6",

@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/Osobiste-portfolio/static/js/main.1cf89537.js",
+    "main.js": "/Osobiste-portfolio/static/js/main.d994f4cf.js",
     "static/media/me.jpg": "/Osobiste-portfolio/static/media/me.d11695e34f465fbd16c9.jpg",
+    "static/media/fitness.png": "/Osobiste-portfolio/static/media/fitness.d11b27db44596ee0cb08.png",
     "static/media/ecommerce.jpg": "/Osobiste-portfolio/static/media/ecommerce.78b429ad507bf8ed933f.jpg",
     "static/media/CV.pdf": "/Osobiste-portfolio/static/media/CV.ea99896190a66af2dc22.pdf",
     "static/media/dietbox.jpg": "/Osobiste-portfolio/static/media/dietbox.30620d10f1f7b51ecd1d.jpg",
     "static/media/quiz.jpg": "/Osobiste-portfolio/static/media/quiz.98e99f6cb8cc214be8f5.jpg",
-    "static/media/crypto.jpg": "/Osobiste-portfolio/static/media/crypto.42e459c1bdbfe84a73dd.jpg",
     "static/media/tailwindcss.jpg": "/Osobiste-portfolio/static/media/tailwindcss.139c8a63285df1d3a5ab.jpg",
     "static/media/changer.jpg": "/Osobiste-portfolio/static/media/changer.07267be028cbff8bc41e.jpg",
     "static/media/astronaut.svg": "/Osobiste-portfolio/static/media/astronaut.4db9ef9bbc634aa8ac1a8ef456840594.svg",
@@ -14,9 +14,9 @@
     "static/media/low-poly-grid-haikei.svg": "/Osobiste-portfolio/static/media/low-poly-grid-haikei.eaa93eacdb4e75ceabdae814eed3d78e.svg",
     "static/media/low-poly-grid-haikei2.svg": "/Osobiste-portfolio/static/media/low-poly-grid-haikei2.3a21c1bcb8b1e3735897c29b1b6bf7dc.svg",
     "index.html": "/Osobiste-portfolio/index.html",
-    "main.1cf89537.js.map": "/Osobiste-portfolio/static/js/main.1cf89537.js.map"
+    "main.d994f4cf.js.map": "/Osobiste-portfolio/static/js/main.d994f4cf.js.map"
   },
   "entrypoints": [
-    "static/js/main.1cf89537.js"
+    "static/js/main.d994f4cf.js"
   ]
 }
